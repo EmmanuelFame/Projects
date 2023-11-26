@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h1 id="title">Milestar Survey Form</h1>
+<p id="description">please fill in the following information.</p>
+<form id="survey-form">
+  <label id="name-label">Full name:</label>
+  <input id="name" type="text" required placeholder="Ayanyemi Emmanuel Okiki"></input>
+  <br/>
+  <label id="email-label">Email: </label>
+  <input id="email" placeholder="fame@gmail.com" required></input> 
+  <br/>
+  <label id="number-label">Age: </label>
+  <input id="number" required type="number" placeholder="type your age e.g 18"min="13" max="75"></input>
+  <br/>
+  <p1>
+    Gender:
+  </p1>
+  <br/>
+<select required>
+  <option>male</option>
+  <option>female</option>
+  <option>other</option>
+</select>
+<br/>
+  <p2>Choose your type of business:
+  </p2>
+  <br/>
+  <input name="button" type="radio">Importer</input>
+  <br/>
+  <input name="button" type="radio">Exporter</input>
+  <br/>
+<p3>What product are you interested in ?
+  </p3>
+  <br/>
+  <input name="checkbox" type="checkbox" value="0">Grains</input>
+  <br/>
+  <input name="checkbox" type="checkbox" value="1">Fertilizers</input>
+  <br/>
+  <input name="checkbox" type="checkbox" value="2">Animal products</input>
+  <br/>
+  <input name="checkbox" type="checkbox" value="2">Farm machineries and equipment.</input>
+  <br/>
+  
+<textarea placeholder="please tell us more about your business " role="textbox" contenteditable ></textarea>
+<br/>
+<button id="button">Submit</button>
+</form>
+</body>
+<link rel="stylesheet" href="styles.css">
+</html>
+
+<style>
+h1{
+  font-family: Algerian;
+  font-size: 35px;
+  color:navy;
+  text-align: center;
+}
+body{
+  background:  linear-gradient(80deg, #56d8e4 15%, #9f01ea 94%);
+  margin-left: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+p{
+  font-style: italic;
+}
+p1,p2,p3{
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom:10px;
+}
+
+#email{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 25;
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+#number{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 35px;
+  margin-bottom: 5px
+}
+textarea{
+  margin-left: 75px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+input[name="checkbox"]{
+  margin-top:15px;
+}
+input[name="button"]{
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+botton{
+  margin-top: 40px;
+}
+
+
+</style>
