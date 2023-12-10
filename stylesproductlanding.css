@@ -1,0 +1,205 @@
+#header-img {
+  border-radius: 50%;
+  width: 100px;
+  display: inline-block;
+}
+header .nav-link {
+  display: inline-block;
+  margin: 0 40px;
+  text-align: center;
+}
+#nav-div {
+  border-radius: 15px;
+  border: solid gold;
+  position: fixed;
+  width: 90%;
+  font-size: x-large;
+  background-image: url(https://thumbs.dreamstime.com/z/new-beautiful-bright-colors-gradient-abstract-background-wallpaper-modern-shapes-design-concept-new-beautiful-bright-colors-224658510.jpg);
+  margin: 20px;
+}
+header {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  border-radius: 10px;
+  margin-bottom: 110px;
+  background: linear-gradient(rgb(34, 34, 184), rgb(157, 157, 180), gold);
+}
+.image {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: auto;
+}
+#product-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.product {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.advert {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://wallpaperaccess.com/full/1155011.jpg);
+  flex-wrap: wrap;
+}
+footer {
+  background-image: url(https://images.assetsdelivery.com/compings_v2/webuz/webuz2209/webuz220900028.jpg);
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#adverts {
+  max-width: 600px;
+  margin: auto;
+  background-image: url(https://img.pikbest.com/backgrounds/20191207/beautiful-abstract-gradient-background-v_1609604jpg!sw800);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contact {
+  text-align: center;
+  margin-top: 20px;
+}
+#video {
+  text-align: center;
+  margin: 50px 200px;
+  width: 70%;
+  height: 60vh;
+}
+form {
+  width: 50%;
+  height: auto;
+  margin: 20px 285px;
+  padding: 20px;
+  background: repeating-linear-gradient(rgb(110, 110, 185), pink, purple);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D);
+}
+.wheel {
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 50px;
+  position: absolute;
+  height: 15vw;
+  width: 14vw;
+  max-width: 500px;
+  max-height: 500px;
+  animation-name: wheel;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.line {
+  background-color: black;
+  width: 52%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+}
+
+.line:nth-of-type(2) {
+  transform: rotate(60deg);
+}
+.line:nth-of-type(3) {
+  transform: rotate(120deg);
+}
+.line:nth-of-type(4) {
+  transform: rotate(180deg);
+}
+.line:nth-of-type(5) {
+  transform: rotate(240deg);
+}
+.line:nth-of-type(6) {
+  transform: rotate(300deg);
+}
+
+.cabin {
+  background-color: red;
+  width: 33%;
+  height: 10%;
+  position: absolute;
+  border: 2px solid;
+  transform-origin: 50% 0%;
+  text-align: center;
+  font-weight: bold;
+  animation: cabins 10s ease-in-out infinite;
+}
+
+.cabin:nth-of-type(1) {
+  right: -8.5%;
+  top: 50%;
+}
+.cabin:nth-of-type(2) {
+  right: 17%;
+  top: 93.5%;
+}
+.cabin:nth-of-type(3) {
+  right: 67%;
+  top: 93.5%;
+}
+.cabin:nth-of-type(4) {
+  left: -8.5%;
+  top: 50%;
+}
+.cabin:nth-of-type(5) {
+  left: 17%;
+  top: 7%;
+}
+.cabin:nth-of-type(6) {
+  right: 17%;
+  top: 7%;
+}
+
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cabins {
+  0% {
+    transform: rotate(0deg);
+    background-color: yellow;
+  }
+  50% {
+    background-color: purple;
+  }
+  25% {
+    background-color: blue;
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #product-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
