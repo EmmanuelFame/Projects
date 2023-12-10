@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head >
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="stylesproductlanding.css" />
+    <header id="header">
+    <div class="image">
+    <img id="header-img" src="https://img.freepik.com/free-photo/3d-eagle-rendering-while-flying_23-2150724319.jpg" alt="Milestar Logo II"></img> MILESTAR TRADE AND EXPORT LIMITED </div>
+    <nav id="nav-bar">
+      <div id="nav-div">
+      <ul>
+        <li class="nav-link"><a href="#adverts">More about us.</a></li>
+        <li class="nav-link"><a href="#contact">Contact us.</a></li>
+        <li class="nav-link"><a href="#product-images">Products.</a></li>
+        <li class="nav-link"><a href="#form">let us contact you.</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+  </head>
+    <body>
+      <section>
+        <div id="adverts">
+          <h1>Milestar Trade and Export Limited - Your Trusted Partner in Agricultural Export</h1>
+          <p>Unlock the richness of the harvest with Milestar Trade and Export Limited, your premier choice for importing top-quality wheat, grains, farm machinery, and flours throughout Africa.</p>
+          
+          <ul>
+              <li><strong>Premium Quality Grains:</strong> Harvested with care and precision to ensure superior quality that meets international standards.</li>
+              <li><strong>Cutting-Edge Farm Machinery:</strong> Stay ahead in agriculture with our state-of-the-art farm machinery, designed for efficiency and productivity.</li>
+              <li><strong>Versatile Wheat Selection:</strong> From hearty whole grains to finely milled flours, our diverse wheat offerings cater to every culinary need.</li>
+          </ul>
+  
+          <p><strong>Why Choose Us?</strong></p>
+          <ul>
+              <li><strong>Reliability:</strong> We are committed to delivering on time, every time.</li>
+              <li><strong>Quality Assurance:</strong> Our products undergo rigorous testing to meet the highest standards.</li>
+              <li><strong>Global Reach:</strong> Reach new markets and expand your business with our extensive export network.</li>
+          </ul>
+
+          <p style="text-align: center; margin-top: 20px;"><em>Cultivating Success, Harvesting Excellence.</em></p>
+      </div>
+      </section>
+      <iframe width="560" id="video" height="315" src="https://www.youtube.com/embed/SJv8bHTq4mU?si=d31-SB6ColxtCrzt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div id="product-images">
+        <img class="product" src="https://media.istockphoto.com/id/157580609/photo/hessian-sack-of-grain-and-wheat.jpg?s=612x612&w=0&k=20&c=6QvbMR6yZT6vk7yEADy1ydBH0Okqar-dbFvXlpG_HOs=" alt="Wheat">
+        <img class="product" src="https://media.istockphoto.com/id/530410715/photo/soy-beans-in-a-burlap-bag.jpg?s=612x612&w=0&k=20&c=RvkjVeNRdY9QeeL-b5H2Ss5wf39hTuShcr643YMBuXw=" alt="soy-beans-in-a-burlap-bag">
+        <img class="product" src="https://media.istockphoto.com/id/513108854/photo/corn-in-the-sack.jpg?s=612x612&w=0&k=20&c=nWntceHMuRrDdcysm030g9i3hP6_rFcGd3Vw42wKosQ=" alt="Maize">
+        <img class="product" src="https://media.istockphoto.com/id/153779841/photo/variuos-cereal-grain.jpg?s=612x612&w=0&k=20&c=3dcvt8BMgL4Cpd-YAfQ7jTyS4_eThZe8KxBA5CpUT4M=" alt="Barley">
+        <img class="product" src="https://media.istockphoto.com/id/474577635/photo/linen-sack-with-flour.jpg?s=612x612&w=0&k=20&c=aA4LcqeBGZgpZTNXKHV-cZCbkz3-ZdMZ8arBfkAYR9A=" alt="Wheat Flour">
+        <img class="product" src="https://media.istockphoto.com/id/672272112/photo/fertilizer-bag-over-sunrise.jpg?s=612x612&w=0&k=20&c=iRBoIQrX4LPgR9tJoV2u4OrUp1ogSKjBR5Q21ifyn0U=" alt="Fertilizer">
+        <img class="product" src="https://www.deere.com/assets/images/region-4/products/tractors/row-crop-tractors/6r-row-crop-tractors/6r-165/6r_165_studio_image_r4x001130_R2_1024x576_1_large_72a915acec82f011ccd37ce9f507c7bb2008f559.jpg" alt="Tractor" />
+        <img class="product" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71VjSuCezhL.jpg" alt="Harvester" />
+        <img class="product" src="https://img.freepik.com/premium-photo/full-sack-oats-lies-white-background-close-up-breakfast-oatmeal_303157-470.jpg?w=2000" alt="Oats" />
+      </div><br/>
+      <p id="contact"><strong>Contact Us Today !</strong></p>
+          <p id="contact">Milestar Trade and Export Limited<br>+79526267287, +2348022770170.<br>milestartradeandexportlimited.com<br>admin@milestartradeandexportlimited.ru</p>
+
+      <div class="advert">
+        <p>Order for commercial wheats and grains in huge quantity(500-100,000 metric tonnes)</p>
+        <p>Buy excellent food crops fertilizer to be delivered at the port of your choice in commercial quantity</p>
+        <p>place a order for Agricultural implements, body parts and modern tractors for commercial  farming</p>
+      </div>
+      <div class="wheel">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+  
+        <div class="cabin">wheats</div>
+        <div class="cabin">oats</div>
+        <div class="cabin">barley</div>
+        <div class="cabin">tractor</div>
+        <div class="cabin">harvester</div>
+        <div class="cabin">soya</div>
+      </div>
+      
+      <form  id="form" action="https://www.freecodecamp.com/email-submit">
+        <label id="name-label">Legal Name: </label>
+        <input id="name" type="name" placeholder="Adeola Racheal titi " />
+        <br/>
+        <label id="email-label">Email: </label>
+        <input id="email" name="email" type="email" placeholder="joe@gmail.com" />
+        <br/>
+        <label id="contact-label">Contact:</label>
+        <input id="contact" type="tel" placeholder="08020001000"/>
+        <br/>
+        <p>What product are you interested in ?
+        </p>
+        <input name="checkbox" type="checkbox" value="0">Grains</input>
+        <br/>
+        <input name="checkbox" type="checkbox" value="1">Fertilizers</input>
+        <br/>
+        <input name="checkbox" type="checkbox" value="2">Animal products</input>
+        <br/>
+        <input name="checkbox" type="checkbox" value="2">Farm machineries and equipment.</input>
+        <br/>
+        <input id="submit" type="submit"/>
+        
+      </form>
+
+    </body>
+    <footer>
+      <p>&copy; 2023 Milestar Trade and Export Limited. All Rights Reserved.</p>
+      <p>Address: Gogolya 15, Ufa, Bashkortostan, Russian Federation.</p>
+      <p>Email: admin@milestartradeandexportlimited.ru | Phone: +79526267287</p>
+  </footer>
+</html>
