@@ -1,0 +1,74 @@
+#release-schedule {
+  border: 2px solid gold;
+  background-color: #fddc5c;
+}
+#editor {
+  display: inline;
+  border: 2px solid #5051aa;
+  background-color: #8686c7;
+}
+#info {
+  border-radius: 60px;
+  background-color: #7cb9e8;
+  text-align: center;
+  width: max-content;
+  height: 1px;
+}
+.nav-link {
+  margin: 5px 5px 10px 5px;
+}
+header {
+  font-weight: bold;
+  font-size: 25px;
+}
+#Navigation {
+  border: 1px solid pink;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #7cb9e8;
+  position: fixed;
+  z-index: 1000;
+  border-top-right-radius: 10px;
+}
+#nav-links {
+  list-style: none;
+  margin-top: 40px;
+  display: block;
+}
+body #content-wrapper {
+  overflow-x: hidden;
+  margin-left: 205px;
+
+  margin-bottom: 5px;
+  float: right;
+  background-color: aquamarine;
+  border-radius: 7px;
+}
+#navbar {
+  position: relative;
+}
+#toggle {
+  margin-left: auto;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#watermark {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+  transform-origin: 100% 100%;
+  pointer-events: none;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
